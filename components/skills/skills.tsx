@@ -48,7 +48,7 @@ const skillCategories : SkillsCategory[] = [
 
 function Skills() {
   return (
-    <section className="py-20 px-16">
+    <section className="">
       <h1 className="font-heading text-3xl font-semibold mb-10 ">
         Skills
       </h1>
@@ -75,7 +75,7 @@ function Skills() {
         return (
           <div 
             key={i} 
-            className="group flex flex-col items-center justify-center text-center py-15 px-30 gap-4 bg-card/40 border border-border/80 rounded-xl hover:border-orange-400   transition-all hover:-translate-y-3 duration-300 l"
+            className="group flex flex-col items-center justify-center text-center py-15 px-15 gap-4 bg-card/40 border border-border/80 rounded-xl hover:border-orange-400   transition-all hover:-translate-y-3 duration-300 l"
           >
            
             <Icon className="w-10 h-10 text-muted-foreground group-hover:text-foreground " />
