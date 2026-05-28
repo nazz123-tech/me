@@ -22,7 +22,7 @@ export const EducationList = ()=>{
               <li className="flex flex-row gap-5">
                 <Separator orientation="vertical" className="bg-gray-400" ></Separator>
                 <div>
-<h2 className="flex flex-row gap-2  text-base text-muted-foreground">IT School <Image alt="goit" width={50} height={50} src={'/logo.svg'}></Image></h2>
+<h2 className="flex flex-row gap-2 items-center text-base text-muted-foreground">IT School <Image alt="goit" width={60} height={60} className="bg-background dark:bg-orange-400 p-1" src={'/logo.svg'}></Image></h2>
                 <p className="text-gray-600 text-sm">Fullstack Course</p>
                 <span className="text-sm text-muted-foreground">2025-2026</span>
                 </div>
